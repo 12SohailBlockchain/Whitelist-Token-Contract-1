@@ -1,42 +1,54 @@
 Whitelist Token Contract
 About This Repository
-This repository was built by Sohail Ahmed, a Senior Blockchain Developer. It showcases a Solana program implemented using Rust, the Solana CLI, and the Anchor framework.
+This repository, created by Sohail Ahmed, a Senior Blockchain Developer, demonstrates a Solana program written in Rust using the Anchor framework and Solana CLI. It implements a whitelist token contract along with comprehensive test scripts.
 
 Repository Structure
-.Program Code:
-The main program logic for the whitelist token contract is located in the src folder, specifically in the lib.rs file.
+Program Code:
+The main logic for the whitelist token contract is located in the src folder, specifically in the lib.rs file.
 
-.Test Scripts:
-The repository includes test scripts to verify the contract's functionality. These tests are written using Solana devnet and the Anchor testing tools.
+Test Scripts:
+Test scripts are included to validate the contract's functionality. These tests use Solana's devnet and Anchor's testing framework.
+
 
 Key Features
-.Whitelist token implementation
-.Comprehensive test coverage to ensure contract functionality.
+Whitelist token implementation.
+Comprehensive test coverage to ensure robust contract functionality.
 
 
 Getting Started
-1:Clone the repository:
+Clone the Repository
+
+git clone <repository-url>
+cd <repository-name>
+Install Dependencies
+Ensure you have Anchor and Solana CLI installed. If not, install them using:
+
+anchor install
+Build the Program
+Compile the program:
 
 
-
-2:git clone <repository-url>
-Install the required dependencies:
-
-
-3:anchor install
-Build the program:
-
-
-4:anchor build
+anchor build
+Deploy the Program
 Deploy the program to the local Solana validator or devnet:
 
 
-5:anchor deploy
-Run the tests:
+anchor deploy
+Run the Tests
+Verify the program functionality using the included test scripts:
+
+
+anchor test
+
+
 
 Contributing
-Feel free to open issues or submit pull requests to improve the functionality or documentation.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve functionality or documentation.
+
+
 
 Author
 Sohail Ahmed
 Senior Blockchain Developer
+Connect on LinkedIn or GitHub.
+
