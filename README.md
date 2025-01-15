@@ -1,6 +1,6 @@
 Whitelist Token Contract
 About This Repository
-This repository, created by Sohail Ahmed, a Senior Blockchain Developer, demonstrates a Solana program written in Rust using the Anchor framework and Solana CLI. It implements a whitelist token contract along with comprehensive test scripts.
+This repository,  demonstrates a Solana program written in Rust using the Anchor framework and Solana CLI. It implements a whitelist token contract along with comprehensive test scripts.
 
 Repository Structure
 Program Code:
@@ -47,8 +47,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 
 
-Author
-Sohail Ahmed
-Senior Blockchain Developer
-Connect on LinkedIn or GitHub.
 
